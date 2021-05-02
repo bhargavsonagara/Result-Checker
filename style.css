@@ -1,0 +1,68 @@
+*{
+    font-family: cursive;
+}
+.container-fluid{
+    background-color: rgb(39,196,182);
+    padding: 150px 300px 150px 300px;
+}
+.card{
+    background-color: rgb(61,60,62);
+    box-shadow: 0.5px 0.5px 15px rgba(0, 0, 0, 0.5);
+}
+.sgc{
+    border-left: 4px solid rgb(32, 128, 120);
+    margin: auto;
+    position: relative;
+    left: 50px;
+}
+.animated{
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+.pulse{
+    animation-name: pulse;
+}
+.infinite{
+    animation-iteration-count: infinite;
+}
+.sgc>h2{
+    color: rgb(39,196,182);
+    font-weight: bolder;
+}
+input{
+    background-color: rgb(61,60,62);
+    color: #fff;
+    border: none;
+    transition: border-color .2s;
+    letter-spacing: 1.4px;
+    font-weight: bolder;
+}
+.input:focus, :focus-visible{
+    outline: none;
+}
+::placeholder{
+    color: #fff;
+}
+.prcent{
+    color: rgb(39,196,182);
+    background: none;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    outline: none;
+}
+.prcent:hover{
+    color: rgb(39,196,182);
+}
+hr{
+    background-color: rgba(255, 255, 255, 0.295);
+    position: relative;
+    top: -10px;
+}
+h5{
+    color: #fff;
+}
+.sgc1{
+    position: relative;
+    right: 20px;
+}

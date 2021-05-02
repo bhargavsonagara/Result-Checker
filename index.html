@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--bootstrap CSS-->
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    
+    <!--Custum CSS-->
+    <link rel="stylesheet" href="style.css">
+    <title>Result Checker</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="container card">
+            <div class="card-body">
+                <div class="row pt-3">
+                    <div class="col-sm-6 sgc">
+                        <h2>STUDENT</h2>
+                        <h2>GRADE</h2>
+                        <h2>CALCY</h2>
+                    </div>
+                    <div class="col-sm-6 sgc1">
+                        <input type="number" class="w-100" placeholder="Physics" id="phy">
+                        <hr>
+                        <input type="number" class="w-100" placeholder="Chemistry" id="chem">
+                        <hr>
+                        <input type="number" class="w-100" placeholder="Math" id="maths">
+                        <hr>
+                        <input type="number" class="w-100" placeholder="Communication" id="wd">
+                        <hr>
+                        <input type="number" class="w-100" placeholder="Computer" id="comp">
+                        <hr>
+                        <input type="button"  class="text-decoration-none prcent" id="prc" onclick="calcy()" value="show percentage">
+                    </div>
+                    <div class="row pt-3 text-center mx-auto">
+                        <h5 id="showData"></h5>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </div>
+
+    <!--Jquery Popper Bootstrap-->
+    <script src="JavaScript.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
